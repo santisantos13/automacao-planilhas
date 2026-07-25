@@ -1,0 +1,2 @@
+pandads == 3.0.2
+openpyxl
