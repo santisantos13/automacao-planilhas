@@ -7,7 +7,6 @@ def gerar_relatorio(arquivo):
 
   lista_mes = []
 
-  df = pd.read_excel(arquivo)
   abas = pd.ExcelFile(arquivo).sheet_names
 
   for mes in abas:
@@ -32,7 +31,7 @@ def gerar_relatorio(arquivo):
   print(f'GANHOS: {total_ganhos:.2f}')
   print(f'GASTOS: {total_gastos:.2f}')
   print(f'LIQUIDO: {liquido:.2f}')
-  print(f'R$/KM MÉDIO: {media_km:.2f}km')
+  print(f'R$/KM MÉDIO: R$ {media_km:.2f}/km')
   print(200* "-")
 
   resumo_mensal = df_complete.groupby("Mes")[["TOTAL GANHOS", "TOTAL GASTOS", "KM Rodados"]].sum()
