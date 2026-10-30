@@ -11,6 +11,8 @@ A planilha `Controle_Uber.xlsx` é preenchida manualmente todo dia, com uma aba 
 - Datas inconsistentes em algumas abas
 - Dias sem quilometragem registrada, gerando erro de divisão por zero (`#DIV/0!`) no cálculo de R$/km
 
+> Nota: os dados de Controle_Uber.xlsx são fictícios, criados para demonstração.
+
 Este script automatiza a leitura, corrige esses problemas e gera um resumo confiável.
 
 ## O que o script faz
