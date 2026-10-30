@@ -43,10 +43,7 @@ def exportar_planilha(relatorio, nome):
   relatorio.to_excel(nome)
 
 
-
-
-resultado = gerar_relatorio('Controle_Uber.xlsx')
-exportar_planilha(resultado, "Relatorio_Mensal.xlsx")
-
-print(resultado)
-
+if __name__ == "__main__":
+  resultado = gerar_relatorio('Controle_Uber.xlsx')
+  exportar_planilha(resultado, "Relatorio_Mensal.xlsx")
+  print(resultado)
