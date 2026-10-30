@@ -47,3 +47,4 @@ Este script automatiza a leitura, corrige esses problemas e gera um resumo confi
 - Separar totais por app (Uber vs 99Pop)
 - Gerar gráficos de evolução mensal
 - Agendar execução automática
+- Tratar dias com ganho e sem km registrado
